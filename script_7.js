@@ -29,3 +29,4 @@ if (maching == "?") {
 
 // https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/match
 // https://www.w3schools.com/jsref/jsref_regexp_charset.asp
+// https://regex101.com/
