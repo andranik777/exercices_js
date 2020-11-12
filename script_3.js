@@ -5,9 +5,11 @@ while (isNaN(answer)) {
 }
 
 var pyramide = (num) => {
-    for (let i = 1; i <= num; i++) {
-        let a = "#"
-        console.log(a.repeat(i));
+    for (let i = 1, j = num; i <= num; i++) {
+        let space = " ";
+        let a = "#";
+        j--;
+        console.log(space.repeat(j) + a.repeat(i));
     }
 }
 
